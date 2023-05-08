@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* MY-PROJECTS-SECTION-TWO */
+.projects-sectionTwo{
+    background-color: rgb(17, 3, 59);
+    padding: 0% 7% 5% 7%;
+}
+.final-dots-image{
+    display: flex;
+    width: 600px;
+    height: 95px;
+}
+.subheading-texet2{
+    margin-bottom: 4%;
+}
+.projectRectangle-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .projectRectangle-container2 a{
+    background-color: rgb(9, 0, 37);
+    border-radius: 30px;
+    text-decoration: none;
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+  }
+  .projects-container2 a:hover{
+    background-color: red;
+    transition: 4s;
+  }
+  .images-spacing-and-sizes{
+      width: 245px;
+      height: 100%;
+      margin-left: 10%;
+      margin-right: 5%; 
+  }
+  .projects-pText{
+    width: 80%;
+  }
+  .projects-pTextt{
+    width: 100%;
+  }
+.returnHome-button{
+    margin-left: 42%;
+    margin-top: 4%;
+}
+
+/* small devices (potrait phones, less than 576px) */
+@media(max-width: 576px){
+
+    .span-container{
+        font-size:50px;
+        left: 10px;
+        bottom: 20px;
+    }
+    .projects-sectionTwo{
+        padding: 0% 3% 5% 3%;
+    }
+    .final-dots-image{
+        width: 250px;
+        height: 55px;
+        margin-bottom: 8%;
+    }
+    .h3-and-redLine h3{
+        margin-left: 0px;
+    }
+    .MyProjects-redline {
+        margin: 3% 0% 0% 2%;
+    }
+    h6{
+        font-size: 15px;
+    }
+   .projectRectangle-container2 a{
+      border-radius: 15px;
+      width: 100%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+    .projectRectangle-container2 a p{
+       font-size: 10px;
+    }
+  .images-spacing-and-sizes{
+      width: 140px;
+      height: 80%;
+      margin-left: 5%;
+      margin-right: 5%; 
+  }
+  .projects-pText{
+     width: 90%;
+  }
+  .projects-pTextt{
+     width: 90%;
+  }
+  .returnHome-button{
+       margin-left: 39%;
+  }
+        
+}
+
+/* MEDIUM DEVICES (TABLETS,IPADS less than 992px) */
+@media(min-width: 577px) and (max-width: 992px){
+
+    .projects-sectionTwo{
+        padding: 0% 3% 5% 3%;
+    }
+    .final-dots-image{
+        width: 530px;
+        height: 90px;
+        margin-bottom: 5%;
+    }
+    .span-container{
+        font-size:90px;
+        left: 1px;
+        bottom: 20px;
+    }
+    .projectRectangle-container2 a{
+        border-radius: 20px;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+      }
+      .projectRectangle-container2 a p{
+        font-size: 15px;
+      }
+      .images-spacing-and-sizes{
+          width: 245px;
+          height: 100%;
+          margin-left: 10%;
+          margin-right: 5%; 
+      }
+     .copyright-text{
+        margin-bottom: 30px;
+    }
+}

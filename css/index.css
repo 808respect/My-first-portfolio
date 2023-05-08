@@ -1,0 +1,768 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.transparent-buttons{
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: 'ralewaylight';  
+}
+.transparent-buttons:hover{
+    background-color: red;
+    border: red;
+}
+.project-icons{
+    display: flex;
+}
+.icon{
+    font-size: 50px;
+    color: white;
+}
+.icon:hover{
+    color: red;
+}
+.instagram{
+    margin-left: 3%;
+}
+h3{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 1%;
+    font-family: 'poppinsbold'; 
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: 'poppinsregular';
+}
+span{
+    color: rgb(255, 0, 0);
+}
+h6{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.redline{
+    width: 250px;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+}
+.button-topMargin{
+    margin-top: 6%;
+}
+.page-numbers{
+    margin-top: 7%;
+    color: rgb(60, 57, 57);
+    font-family: 'poppinsregular';
+}
+
+/* BILBOARD-SECTION */
+.banner{
+    background-image: url("../images/banner.png");
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 7%; 
+}
+.imageAndNav-container{
+    display: flex;
+    background-color: transparent;
+}
+.final-dots-image{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    color: white; 
+}
+.home-navbar{
+    margin-left: 53%;
+}
+.navbar-links ul{
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+    padding: 25px;
+}
+.navbar-links li.active{
+   background-color: red;
+   border-radius: 23px;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    font-family: 'poppinsmedium';
+}
+.navbar-links li a:hover{
+    color: red;
+}
+.toggle-button {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    opacity: 95%;
+  }
+  .toggle-button a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'poppinsmedium';
+  }
+  .toggle-button a:hover {
+    color: red;
+  }
+  .toggle-button .closingButton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+.span-container{
+    margin-left: 40%; 
+    font-size:30px;
+    cursor:pointer;
+    display: none;
+}
+h1{
+    font-size: 100px;
+    font-family: 'poppinsbold';
+    color: white;
+    width: 65%;
+    margin-top: 4%;
+}
+.bilboard-ptext{
+    color: rgb(255, 0, 0);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'poppinsbold';
+}
+.buttonsIconsAndDottedImage{
+    display: flex;
+}
+.buttons-and-icons{
+    display: flex;
+    margin-top: 1%;
+    align-items: flex-end;
+    width: 85%;
+}
+.InTouch-button{
+    margin-right: 2%;
+}
+.findMe-text-and-icons{
+    margin-left: 55%;
+}
+.findMe-pText{
+    font-size: 20px;
+}
+.instagram{
+    margin-left: 25%;
+}
+.dots-image-small{
+    width: 20px;
+    height: 20px;
+}
+
+/* ABOUT-ME-SECTION */
+.about-me-section{
+    background-color: rgb(6, 0, 35);
+    padding: 7% 7% 2% 7%;
+}
+.h3-and-redLine{
+    display: flex;
+}
+.aboutMyself-redline{
+    margin: 4% 0% 0% 4%;
+}
+.aboutMe-ptext{
+    width: 95%;
+}
+.first-paragraph{
+    margin: 3% 0% 4% 0%;
+}
+.slideshow-container {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+}
+.slideshow-container  img{
+    width: 100%;
+    height: 100%;
+}
+
+/* MY-SKILLS-SECTION */
+.my-skills-section{
+    background-color: rgb(6, 0, 35);
+    padding: 0% 7% 4% 7%;
+}
+.h3-redLine-subheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.logoContainers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.logoContainers img:hover{
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.logo-images{
+    width: 40%;
+}
+.logo-image{
+    width: 43%;
+}
+.bottom-spacing{
+    margin-bottom: 70px;
+}
+.logo-names{
+    margin-top: 5%;
+}
+
+/* MY-PROJECTS-SECTION */
+.projects-section{
+    background-color: rgb(18, 3, 58);
+    padding: 4% 7% 4% 7%;
+}
+.MyProjects-redline{
+    margin: 2% 0% 0% 2%;
+}
+.projects-container{
+    width: 100%;
+}
+.projectRectangle-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.projectRectangle-container a{
+    background-color: rgb(9, 0, 37);
+    border-radius: 30px;
+    text-decoration: none;
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+.projects-container a:hover{
+    background-color: red;
+    transition: 3s;
+}
+.project-photo{
+    width: 245px;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 5%; 
+}
+.project-pText{
+    width: 80%;
+}
+.load-haull{
+    margin-bottom: 4%;
+}
+.myProject-section-button{
+    margin-left: 40%;
+}
+
+/* E-MAILING-FORM-SECTION */
+.Emailing-form-section{
+    background-color: rgb(6, 4, 53);
+    padding: 0% 7% 4% 7%;
+}
+.center-aligning-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.secondType-redline{
+    width: 3px;
+    height: 90px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 0, 0); 
+}
+.Emailing-section-heading{
+    width: 45%;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0%;
+    padding-left: 23%;
+}
+input{
+    width: 70%;
+    height: 60px;
+    margin-bottom: 2%;
+    padding-left: 2%;
+}
+textarea{
+    width: 70%;
+    padding: 2% 0% 25% 2%;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+.Emailing-section-button{
+    margin-top: 3%;
+}
+
+/* FOOTER-SECTION */
+.footer-section{
+    background-color: rgb(6, 0, 35);
+}
+.footer-section a{
+    text-decoration: none;
+}
+.footer-section a p:hover{
+    color: red; 
+}
+.myEmail-ptext{
+    font-size: 25px;
+}
+.footer-redline{
+    width: 3px;
+    height: 70px;
+    background-color: rgb(255, 0, 0); 
+    margin-bottom: 1%;
+}
+.pages-text{
+    display: flex;
+}
+.pages-seperators{
+    width: 3px;
+    height: 30px;
+    background-color: white;
+    margin: 0px 12px;
+}
+.footerIcons{
+    margin-bottom: 30%;
+    font-size: 35px;
+    color: white;
+}
+.footerIcons:hover{
+    color: red;
+}
+.github2{
+    margin-left: 65%;
+}
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.copyright-text{
+    color: gray;
+}
+
+/* small devices (potrait phones, less than 576px) */
+@media(max-width: 576px){
+    .transparent-buttons{
+        width: 90px;
+        height: 40px;
+        font-size: 10px;
+        border-radius: 30px;   
+    }
+    h3{
+        font-size: 27px;
+        margin-bottom: 0%;
+    }
+    .redline{
+        width: 130px;
+        height: 3px;
+    }
+    p{
+        font-size: 13px;
+    }
+    
+/* NAVIGATION */
+    .navbar-links ul{
+        display: none;
+    }
+    .navbar{  
+        margin-left: 12%;
+
+    }
+    .toggle-button a {
+        font-size: 40px;
+        margin: 8px;
+      }
+    .final-dots-image{
+        display: flex;
+        width: 250px;
+        height: 50px;
+    }
+    .span-container{
+        font-size:50px;
+        cursor:pointer;
+        display: flex;
+        color: white;
+        position: absolute;
+        left: 10px;
+    }
+    .span-container:hover{
+        color: red;
+    }
+  
+/* BILBOARD-SECTION */
+    .banner{
+        background-image: url("../images/banner.png");
+        background-position: center;
+        background-size: auto;
+        height: 57vh;
+        padding: 0% 0% 0% 3%;
+    }
+    h1{
+        font-size: 39px;
+        font-weight: bold;
+        color: white;
+        width: 100%;
+        margin-top: 12%;
+    }
+    .bilboard-ptext{
+        font-size: 20px;
+     }
+    .buttons-and-icons{
+        margin-top: 9%;  
+        align-items: flex-start;
+    }
+    .findMe-text-and-icons{
+        margin-left: 15%;
+    }
+    .findMe-pText{
+        display: none;
+    }
+    .icon{
+        font-size: 35px;
+        color: white;
+    }
+    .instagram{
+        margin-left: 25%;
+    }
+       
+/* ABOUT-ME-SECTION */
+    .about-me-section{
+        padding: 10% 0% 2% 3%;
+    }
+    .h3-and-redLine{
+        display: flex;
+        flex-direction: row;
+    }
+    .aboutMyself-redline{
+        margin: 4% 0% 7% 3%;
+    }
+    .blue-rectangle{
+        width: 320px;
+        height: 400px;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+    .button-topMargin{
+        margin-top: 3%;
+    }
+    .slideshow-container {
+        width: 98%;
+        height: 250px;
+        margin-top: 0px;
+    }
+
+/* MY-SKILLS-SECTION */
+    .my-skills-section{
+        background-color: rgb(6, 0, 35);
+        padding: 0% 7% 4% 7%;
+    }
+    .h3-redLine-subheading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+    .logoContainers{
+        width:100%;
+    }
+    .logo-images{
+        width: 30%;
+    }
+
+/* MY-PROJECTS-SECTION */
+    .projects-section{
+        padding: 10% 3% 2% 3%;
+    }
+    .h3-and-redLine h3{
+        margin-left: 3%;
+    }
+    h6{
+        font-size: 15px;
+    }
+    .projects-section span{
+        margin-left: 3%;
+    }
+    .projectRectangle-container a{
+        border-radius: 15px;
+        width: 100%;
+    }
+    .projectRectangle-container a p{
+        font-size: 10px;
+        width: 90%;
+    }
+    .projects-container a:hover{
+        background-color: red;
+        transition: 4s;
+    }
+    .project-photo{
+        width: 140px;
+        height: 80%;
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+    .project-pText{
+        width: 80%;
+    }
+    .myProject-section-button{
+        margin-left: 35%;
+    }
+
+/* E-MAILING-FORM-SECTION */
+    .Emailing-form-section{
+        background-color: rgb(6, 4, 53);
+        padding: 0% 7% 4% 4%;
+    }
+    .center-aligning-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .center-aligning-items p{
+        text-align: center;
+    }
+    .secondType-redline{
+        height: 50px;
+        margin-bottom: 4%;
+    }
+    .Emailing-section-heading{
+        width: 100%;
+    }
+    form{
+        padding-left: 3%;
+    }
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+        padding-bottom: 50%;
+    }
+    .Emailing-section-button{
+        margin-top: 5%;
+    }
+
+/* FOOTER-SECTION */
+    .footer-section{
+        padding-bottom: 2%;
+    }
+    .footer-redline{
+        height: 50px;
+    }
+    .myEmail-ptext{
+        font-size: 17px;
+    }
+    .pages-seperators{
+        height: 20px;
+        margin: 0px 12px;
+    }
+    .github2{
+        margin-left: 55%;
+    }
+}
+
+/* MEDIUM DEVICES (TABLETS,IPADS less than 992px) */
+@media(min-width: 577px) and (max-width: 992px){
+
+/* NAVIGATION */
+        .navbar-links ul{
+            display: none;
+        }
+        .home-navbar{
+            margin-left: 0%;
+        }
+        .navbar{  
+            margin-left: 16%;
+        }
+        .span-container{
+            font-size:90px;
+            display: flex;
+            color: white;
+            position: absolute;  
+        }
+        .span-container:hover{
+            color: red;
+        }
+        .toggle-button a {
+            font-size: 50px;
+            margin: 20px;
+          }
+        .final-dots-image{
+            display: flex;
+            width: 550px;
+            height: 90px; 
+        }
+    
+/* BILBOARD */
+        .banner{
+            height: 65vh;
+            padding-left: 3%;
+            background-size: auto;
+        }
+        h1{
+            font-size: 80px;
+            font-family: 'poppinsbold';
+            color: white;
+            width: 100%;
+            margin-top: 8%;
+        }
+        .bilboard-ptext{
+            font-size: 37px;
+        }
+        .findMe-text-and-icons{
+            margin-left: 13%;
+        }
+        .buttons-and-icons{
+            margin-top: 3%;
+        }
+         .dots-image-small{
+            display: flex;
+            width: 80px;
+            height: 200px;
+            position: absolute;
+            right: 0px;
+            top: 465px;
+        }
+    
+ /* ABOUT */
+         .blue-rectangle{
+            width: 500px;
+            height: 700px;
+            margin-top: 10%;
+        }
+        .slideshow-container {
+            margin-top: 0px;
+        }
+    
+ /* MY-SKILLS-SECTION */
+        .my-skills-section{
+            padding: 7% 7% 4% 7%;
+        }
+    
+ /* PROJECTS */
+        .projects-section{
+            padding: 7% 3% 4% 3%;
+        }
+        .MyProjects-redline{
+            margin: 3% 0% 0% 2%;
+        }
+        h6{
+        font-size: 20px;
+        }
+        .projects-section span{
+        margin-left: 3%;
+        }
+        .projectRectangle-container a{
+        border-radius: 20px;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        }
+        .projectRectangle-container a p{
+        font-size: 15px;
+        width: 90%;
+        }
+        .project-photo{
+        width: 240px;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%; 
+        }
+        .project-pText{
+        width: 80%;
+        }
+
+/* E-MAILING-FORM-SECTION */
+        .Emailing-section-heading{
+            width: 100%;
+        }
+        .center-aligning-items p{
+            text-align: center;
+        }
+        form{
+            padding-left: 10%;
+        }
+        input{
+            width: 90%; 
+        }
+        textarea{
+            width: 90%;
+            padding-bottom: 50%;
+        }
+        .Emailing-section-button{
+            margin-top: 5%;
+        }
+
+/* FOOTER-SECTION */
+         .copyright-text{
+            margin-bottom: 60px;
+         } 
+}
